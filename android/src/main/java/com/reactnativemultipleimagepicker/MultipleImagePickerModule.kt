@@ -159,8 +159,8 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
 
         // ANIMATION SLIDE FROM BOTTOM
         val animationStyle = PictureWindowAnimationStyle()
-        animationStyle.setActivityEnterAnimation(R.anim.ps_anim_up_in)
-        animationStyle.setActivityExitAnimation(R.anim.ps_anim_down_out)
+        animationStyle.setActivityEnterAnimation(com.luck.picture.lib.R.anim.ps_anim_up_in)
+        animationStyle.setActivityExitAnimation(com.luck.picture.lib.R.anim.ps_anim_down_out)
 
         // TITLE BAR
         val titleBar = TitleBarStyle()
@@ -170,10 +170,10 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
         titleBar.setHideCancelButton(true);
         titleBar.setAlbumTitleRelativeLeft(true);
 
-        titleBar.setTitleAlbumBackgroundResource(R.drawable.ps_album_bg);
-        titleBar.setTitleDrawableRightResource(R.drawable.ps_ic_grey_arrow);
-        titleBar.setPreviewTitleLeftBackResource(R.drawable.ps_ic_black_back);
-        titleBar.setTitleLeftBackResource(R.drawable.ps_ic_black_back);
+        titleBar.setTitleAlbumBackgroundResource(com.luck.picture.lib.R.drawable.ps_album_bg);
+        titleBar.setTitleDrawableRightResource(com.luck.picture.lib.R.drawable.ps_ic_grey_arrow);
+        titleBar.setPreviewTitleLeftBackResource(com.luck.picture.lib.R.drawable.ps_ic_black_back);
+        titleBar.setTitleLeftBackResource(com.luck.picture.lib.R.drawable.ps_ic_black_back);
         titleBar.setHideCancelButton(true)
 
         // BOTTOM BAR
@@ -183,12 +183,12 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
         bottomBar.bottomPreviewSelectTextColor =
             ContextCompat.getColor(appContext, R.color.app_color_pri)
         bottomBar.bottomNarBarBackgroundColor =
-            ContextCompat.getColor(appContext, R.color.ps_color_white)
+            ContextCompat.getColor(appContext, com.luck.picture.lib.R.color.ps_color_white)
         bottomBar.bottomSelectNumResources = R.drawable.num_oval_orange
         bottomBar.bottomEditorTextColor =
-            ContextCompat.getColor(appContext, R.color.ps_color_53575e)
+            ContextCompat.getColor(appContext, com.luck.picture.lib.R.color.ps_color_53575e)
         bottomBar.bottomOriginalTextColor =
-            ContextCompat.getColor(appContext, R.color.ps_color_53575e)
+            ContextCompat.getColor(appContext, com.luck.picture.lib.R.color.ps_color_53575e)
         bottomBar.bottomPreviewNormalTextColor = R.color.app_color_53575e
         bottomBar.bottomPreviewNormalTextColor = R.color.app_color_black
         bottomBar.setCompleteCountTips(false)
@@ -202,7 +202,7 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
         mainStyle.isSelectNumberStyle = true
         mainStyle.selectBackground = R.drawable.picture_selector
         mainStyle.mainListBackgroundColor =
-            ContextCompat.getColor(appContext, R.color.ps_color_white)
+            ContextCompat.getColor(appContext, com.luck.picture.lib.R.color.ps_color_white)
         mainStyle.previewSelectBackground =
             R.drawable.picture_selector
 
@@ -213,7 +213,7 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
 
 
         mainStyle.selectNormalTextColor =
-            ContextCompat.getColor(appContext, R.color.ps_color_9b)
+            ContextCompat.getColor(appContext, com.luck.picture.lib.R.color.ps_color_9b)
         mainStyle.selectTextColor = primaryColor
         mainStyle.selectText = doneTitle
 
@@ -232,7 +232,7 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
 
 
 //        pictureStyle.selectMainStyle.adapterImageEditorResources =
-//            if (singleSelectedMode) R.drawable.checkbox_selector else R.drawable.picture_selector
+//            if (singleSelectedMode) com.luck.picture.lib.R.drawable.checkbox_selector else R.drawable.picture_selector
 //        numberSelectMainStyle.isSelectNumberStyle = if (singleSelectedMode) false else true
 //        //bottom style
 //        pictureStyle.bottomBarStyle.bottomOriginalText = options.getString("doneTitle")
@@ -247,7 +247,7 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
 //        pictureStyle.picturePreviewBottomBgColor = Color.parseColor("#000000")
 //        pictureStyle.pictureUnPreviewTextColor = Color.parseColor("#ffffff")
 //        //header
-//        pictureStyle.pictureTitleDownResId = R.drawable.picture_icon_arrow_down
+//        pictureStyle.pictureTitleDownResId = com.luck.picture.lib.R.drawable.picture_icon_arrow_down
 //        pictureStyle.pictureCancelTextColor = Color.parseColor("#393a3e")
 //        pictureStyle.pictureStatusBarColor = Color.parseColor("#393a3e")
 //        pictureStyle.pictureTitleBarBackgroundColor = Color.parseColor("#393a3e")
