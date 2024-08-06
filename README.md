@@ -54,9 +54,9 @@
 ## Installation
 
 ```sh
-npm i @baronha/react-native-multiple-image-picker
+npm i @sam904/react-native-multiple-image-picker
 // or
-yarn add @baronha/react-native-multiple-image-picker
+yarn add @sam904/react-native-multiple-image-picker
 ```
 
 ### iOS
@@ -125,7 +125,7 @@ Here are some related issues in the RN repo: [Issue 30202](https://github.com/fa
 See [options](#Options)
 
 ```js
-import { openPicker } from '@baronha/react-native-multiple-image-picker';
+import { openPicker } from '@sam904/react-native-multiple-image-picker';
 // ...
 const response = await openPicker(options);
 ```
