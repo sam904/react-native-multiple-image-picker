@@ -155,8 +155,8 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
 
         // ANIMATION SLIDE FROM BOTTOM
         val animationStyle = PictureWindowAnimationStyle()
-        animationStyle.setActivityEnterAnimation(R.anim.ps_anim_up_in)
-        animationStyle.setActivityExitAnimation(R.anim.ps_anim_down_out)
+        animationStyle.setActivityEnterAnimation(com.luck.picture.lib.R.anim.ps_anim_up_in)
+        animationStyle.setActivityExitAnimation(com.luck.picture.lib.R.anim.ps_anim_down_out)
 
         // TITLE BAR
         val titleBar = TitleBarStyle()
@@ -166,10 +166,10 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
         titleBar.isHideCancelButton = true
         titleBar.isAlbumTitleRelativeLeft = true
 
-        titleBar.titleAlbumBackgroundResource = R.drawable.ps_album_bg
-        titleBar.titleDrawableRightResource = R.drawable.ps_ic_grey_arrow
-        titleBar.previewTitleLeftBackResource = R.drawable.ps_ic_black_back
-        titleBar.titleLeftBackResource = R.drawable.ps_ic_black_back
+        titleBar.titleAlbumBackgroundResource = com.luck.picture.lib.R.drawable.ps_album_bg
+        titleBar.titleDrawableRightResource = com.luck.picture.lib.R.drawable.ps_ic_grey_arrow
+        titleBar.previewTitleLeftBackResource = com.luck.picture.lib.R.drawable.ps_ic_black_back
+        titleBar.titleLeftBackResource = com.luck.picture.lib.R.drawable.ps_ic_black_back
         titleBar.isHideCancelButton = true
 
         // BOTTOM BAR
