@@ -201,6 +201,11 @@ Get an Array value only(Only works when ```singleSelectedMode === false```). If 
 - [ ] Open Crop Controller.
 - [ ] Open Preview Controller.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=baronha/react-native-multiple-image-picker&type=Date)](https://star-history.com/#bytebase/star-history&Date)
+
+
 ## Performance
 
 We're trying to improve performance. If you have a better solution, please open a [issue](https://github.com/baronha/react-native-multiple-image-picker/issues)
@@ -218,6 +223,13 @@ Thanks go to these wonderful people:
 <table>
 	<tbody>
 		<tr>
+            <td align="center">
+                <a href="https://github.com/cd-butterfly">
+                    <img src="https://avatars.githubusercontent.com/u/6622823?v=4" width="100;" alt="cd-butterfly"/>
+                    <br />
+                    <sub><b>cd-butterfly</b></sub>
+                </a>
+            </td>
             <td align="center">
                 <a href="https://github.com/baronha">
                     <img src="https://avatars.githubusercontent.com/u/23580920?v=4" width="100;" alt="baronha"/>
@@ -253,6 +265,8 @@ Thanks go to these wonderful people:
                     <sub><b>Denis Bevilacqua</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/ctrleffive">
                     <img src="https://avatars.githubusercontent.com/u/35224957?v=4" width="100;" alt="ctrleffive"/>
@@ -260,8 +274,13 @@ Thanks go to these wonderful people:
                     <sub><b>Chandu J S</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
+            <td align="center">
+                <a href="https://github.com/shafiqjefri">
+                    <img src="https://avatars.githubusercontent.com/u/126740667?v=4" width="100;" alt="shafiqjefri"/>
+                    <br />
+                    <sub><b>shafiqjefri</b></sub>
+                </a>
+            </td>
             <td align="center">
                 <a href="https://github.com/rxdsrex">
                     <img src="https://avatars.githubusercontent.com/u/21159505?v=4" width="100;" alt="rxdsrex"/>
@@ -290,13 +309,8 @@ Thanks go to these wonderful people:
                     <sub><b>abing</b></sub>
                 </a>
             </td>
-            <td align="center">
-                <a href="https://github.com/cd-butterfly">
-                    <img src="https://avatars.githubusercontent.com/u/6622823?v=4" width="100;" alt="cd-butterfly"/>
-                    <br />
-                    <sub><b>cd-butterfly</b></sub>
-                </a>
-            </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/hieuphan1030">
                     <img src="https://avatars.githubusercontent.com/u/108206954?v=4" width="100;" alt="hieuphan1030"/>
@@ -304,8 +318,6 @@ Thanks go to these wonderful people:
                     <sub><b>hieuphan1030</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/tuanngocptn">
                     <img src="https://avatars.githubusercontent.com/u/22292704?v=4" width="100;" alt="tuanngocptn"/>
